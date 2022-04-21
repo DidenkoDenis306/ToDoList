@@ -144,6 +144,7 @@ h2 {
     
     .title {
         width: 100%;
+        margin-top: 0;
     }
 
     .todolist {
