@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes:regular" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>ToDoList</title>
 </head>
 
 <body>
-    <h1>ToDoList</h1>
+    <div class="title"><h1>ToDoList</h1></div>
     <div class="flex-wrapper">
-        <div class="add-todo-wrapper">
-            <div class="input-wrapper">
-                <input type="text" id="description-task">
+        <div class="todolist">
+            <div class="add-todo-wrapper">
+                <div class="input-wrapper">
+                    <input type="text" id="description-task">
+                </div>
+                <div class="button-wrapper">
+                    <button id="add-task-btn">Добавить</button>
+                </div>
             </div>
-            <div class="button-wrapper">
-                <button id="add-task-btn">Добавить</button>
-            </div>
-        </div>
-        <h2>Задачи на день</h2>
-        <div class="todos-wrapper">
+            <h2>Tasks for the day</h3>
+                <div class="todos-wrapper">
 
+                </div>
         </div>
         <script src="script.js"></script>
+    </div>
 </body>
 
 </html>
