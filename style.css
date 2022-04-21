@@ -156,11 +156,15 @@ h2 {
     }
 
     .button-wrapper button {
-        font-size: 11px;
+        font-size: 9px;
     }
 
     .todos-wrapper,
     .todo-item {
         width: 95%;
+    }
+
+    .todos-wrapper {
+        padding-bottom: 30px;
     }
 }
